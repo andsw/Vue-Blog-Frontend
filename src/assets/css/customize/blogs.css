@@ -1,0 +1,12 @@
+.blog_row {
+    height: 100px;
+}
+.userBehaviorNum {
+    display: inline-block;
+    margin-right: 10px;
+    color: gray;
+}
+
+.userBehaviorNumImg {
+    margin-right: 10px;
+}

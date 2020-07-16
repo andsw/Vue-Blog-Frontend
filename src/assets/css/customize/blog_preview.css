@@ -1,0 +1,39 @@
+#avatar {
+    height: 20px;
+    margin-right: 10px
+}
+
+#author_avatar {
+
+}
+
+#blog_title_item {
+    display: inline-block;
+    font-size: 20px
+}
+
+#blog_title {
+    display: inline-block;
+    width: 100%;
+}
+
+.userBehaviorNum {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.userBehaviorNumImg {
+    margin-right: 5px;
+}
+
+#sub_auth_btn {
+    margin-top: 10px;
+}
+
+#show_comment_btn {
+    margin-left: 10px;
+    border-radius: 13px;
+    width: 79px;
+    padding-left: 11px;
+    height: 24px;
+}

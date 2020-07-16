@@ -1,0 +1,29 @@
+.fan_item {
+    margin-bottom: 10px
+}
+
+.ib {
+    display: inline-block;
+}
+
+.fan_avatar {
+    width: 75px;
+    height: auto;
+    cursor: pointer;
+}
+
+.fan_info {
+    display: inline-block;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.sub_btn {
+    margin-top: 28px;
+    color: #000;
+    border-radius: 20px;
+    height: 54px;
+    width: 116px;
+    font-size: 20px;
+    display: inline-block;
+}
