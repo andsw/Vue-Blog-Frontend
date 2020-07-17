@@ -4,7 +4,7 @@
     <div v-for="(value, key) in menu">
       <span class="heading">{{key}}</span>
       <ul class="list-unstyled">
-        <side_menu_item v-for="item in value" :name="item.name" :path="item.path" :icon-name="item.iconName"></side_menu_item>
+        <side_menu_item v-for="item in value" key="item.name" :name="item.name" :path="item.path" :icon-name="item.iconName"></side_menu_item>
       </ul>
     </div>
   </div>
