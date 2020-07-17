@@ -32,11 +32,18 @@
 </template>
 
 <script>
+    import './assets/vendor/jquery.cookie/jquery.cookie'
     import './assets/js/front.js';
     import SideMenu from "./components/side_menu/SideMenu";
     import SideHeader from "./components/side_menu/SideHeader";
     import Home from "./views/home/Home";
     import NavBar from "./components/nav_bar/NavBar";
+    import toastr from "./assets/js/toastr.min";
+
+    toastr.option = {
+        closeButton: true,
+        showDuration: 1000
+    }
 
     export default {
         name: "App",
@@ -116,5 +123,5 @@
   @import "assets/css/fontastic.css";
   @import "assets/css/style.default.css";
   @import "assets/css/custom.css";
-  @import url("https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css");
+  @import "assets/css/toastr.min.css";
 </style>

@@ -1,13 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from "../views/home/Home";
-import Blogs from "../views/blog/Blogs";
-import Corpuses from "../views/corpus/Corpuses";
-import Collections from "../views/collection/Collections";
-import Fans from "../views/fans/Fans";
-import Help from "../views/help/Help";
-import Setting from "../views/setting/Setting";
-import Subscriptions from "../views/subscription/Subscriptions";
+
+const Home = () => import("../views/home/Home");
+const Blogs = () => import("../views/blog/Blogs");
+const Corpuses = () => import("../views/corpus/Corpuses");
+const Collections = () => import("../views/collection/Collections");
+const Fans = () => import("../views/fans/Fans");
+const Help = () => import("../views/help/Help");
+const Setting = () => import("../views/setting/Setting");
+const Subscriptions = () => import("../views/subscription/Subscriptions");
 
 Vue.use(VueRouter);
 
