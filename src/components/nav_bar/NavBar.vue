@@ -26,8 +26,8 @@
 
 <script>
     import NavBarBrand from "./NavBarBrand";
-    import NotificationsDropdown from "./NotificationsDropdown";
-    import MessageDropdown from "./MessageDropdown";
+    import NotificationsDropdown from "./notification/NotificationsDropdown";
+    import MessageDropdown from "./message/MessageDropdown";
 
     export default {
         name: "NavBar",

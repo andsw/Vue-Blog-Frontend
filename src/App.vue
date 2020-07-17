@@ -15,11 +15,11 @@
 
         <div class="content-inner">
           <!-- 内容标题栏-->
-          <header class="page-header">
-            <div class="container-fluid">
-              <h2 class="no-margin-bottom">{{pageNameFirstUpper}}</h2>
-            </div>
-          </header>
+<!--          <header class="page-header">-->
+<!--            <div class="container-fluid">-->
+<!--              <h2 class="no-margin-bottom">{{pageNameFirstUpper}}</h2>-->
+<!--            </div>-->
+<!--          </header>-->
 
           <!--路由内容显示栏-->
           <keep-alive>
@@ -32,13 +32,13 @@
 </template>
 
 <script>
-    import './assets/vendor/jquery.cookie/jquery.cookie'
-    import './assets/js/front.js';
-    import SideMenu from "./components/side_menu/SideMenu";
-    import SideHeader from "./components/side_menu/SideHeader";
-    import Home from "./views/home/Home";
-    import NavBar from "./components/nav_bar/NavBar";
-    import toastr from "./assets/js/toastr.min";
+    import '@assets/vendor/jquery.cookie/jquery.cookie'
+    import '@assets/js/front.js';
+    import SideMenu from "@components/side_menu/SideMenu";
+    import SideHeader from "@components/side_menu/SideHeader";
+    import Home from "@views/home/Home";
+    import NavBar from "@components/nav_bar/NavBar";
+    import toastr from "@assets/js/toastr.min";
 
     toastr.option = {
         closeButton: true,

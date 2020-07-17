@@ -1,4 +1,7 @@
 /* your styles go here */
+body::-webkit-scrollbar {
+    display: none;
+}
 
 /*以下三个是鼠标悬停下划线从文字中间展开的动画*/
 .text-underline {
